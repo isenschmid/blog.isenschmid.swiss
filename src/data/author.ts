@@ -1,9 +1,9 @@
 import avatar from '../assets/images/sample-avatar.jpg';
 
 export const author = {
-  name: 'Site Author',
+  name: 'Noah Isenschmid',
   avatar,
-  url: '#',
+  url: 'https://linkedin.com/in/isenschmid-swiss',
 };
 
 export type Author = typeof author;
