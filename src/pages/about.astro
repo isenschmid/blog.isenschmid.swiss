@@ -2,25 +2,33 @@
 import Layout from '../layouts/BlogPost.astro';
 import GlowLineSeparator from '@/components/ui/separator/GlowLineSeparator.astro';
 const pageTitle = 'About Me';
-const pageDescription = 'Learn more about my background and approach to software engineering.';
+const pageDescription = 'Learn more about my background and approach to system engineering.';
 ---
 
 <Layout title={pageTitle} description={pageDescription} pubDate={new Date()} showHeader={false}>
-  <p>
-    Hey! I'm a senior software engineer who loves designing reliable systems and shipping products that feel great to use.
-  </p>
-  <p>
-    I work across the stack with TypeScript, Node.js, React/Next.js, and PostgreSQL. I care deeply about readable code,
-    strong tests, and observability. My approach: ship small, iterate quickly, measure outcomes.
-  </p>
-  <p>
-    Recent highlights include leading a migration from a monolith to well‑scoped services, improving p95 latency,
-    and introducing CI/CD with preview environments and quality gates.
-  </p>
-  <p>
-    Outside of feature work, I enjoy mentoring, documentation, and building design‑system components that make teams faster.
-    Always learning—and always happy to collaborate on meaningful problems.
-  </p>
+  <h3>why a blog</h3>
+	<p>In IT, you constantly acquire new knowledge — and I believe it shouldn't just stay locked away in your head. Instead of keeping my thoughts, experiences, and insights to myself, I decided to start this blog to share what I've learned and hopefully help others along the way.</p>
+	<p>Here, you'll find content about Microsoft technologies, security, automation, and general IT topics that I come across during my journey.</p>
+
+	<h3>career</h3>
+	<p>I'm at the very start of my IT career. I completed my four-year apprenticeship in July 2025 and now work as a System Engineer in the greater Bern area, Switzerland.</p>
+	<p>The days of saying, “When I grow up, I want to be a farmer,” are behind me — but my ambitions are clearer than ever. I'm currently working on my Microsoft certifications with the goal of becoming a Modern Workplace Engineer, focusing on security and automation.</p>
+	<p>I'm especially passionate about the Microsoft Enterprise ecosystem — from Azure and security to endpoint management and server administration. My goal is to keep growing, stay curious, and share my journey here with anyone who's interested.</p>
+
+	<h3>what's next</h3>
+	<p>This blog is not just about documenting what I learn — it's also about connecting with others. Over time, I plan to share:</p>
+	<ul>
+		<li>Tips, guides, and best practices from my daily work.</li>
+		<li>Insights into Microsoft technologies and security.</li>
+		<li>Lessons learned from real-world projects.</li>
+	</ul>
+	<p>If you're into IT, security, automation, or simply enjoy following someone's journey through tech, stick around — there's a lot more to come! 🚀</p>
+
+	<h3>what's up with the blog name</h3>
+	<p>The name of my blog, “The Ironsmith Method,” comes from a little play on my last name — Isenschmid, which literally translates to “Ironsmith” in English. It has nothing to do with the actual profession — it’s simply a small personal touch that connects the blog to who I am.</p>
+
+	<h3>what's up with the mascot</h3>
+	<p>The mascot is a modernized version of my family’s coat of arms. It’s designed to represent an ironsmith — but with a twist: he’s an IT guy, just like me 😉</p>
 
   <GlowLineSeparator />
 
